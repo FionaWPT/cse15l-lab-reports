@@ -1,4 +1,4 @@
 # Introduction
 *I'm Fiona*
-__I.m from Taiwan__
+__I'm from Taiwan__
 ***
