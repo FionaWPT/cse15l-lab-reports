@@ -4,14 +4,14 @@ This post shows the steps about how to enable remote access on our computer.
 I have already downloaded VS code on my laptop so there is no need to install again. For those who do not have VS code on thier laptops, go to [Link to VSCode](https://code.visualstudio.com/)
 to install VS code.<br>
 This is the screen when you open VS Code:
-<img width="960" alt="VSC screenshot" src="https://user-images.githubusercontent.com/117040027/212457592-77ce7655-e72b-43c4-923c-cd20b5e2c2c9.png">
+![image](VSC screenshot.jpg)
 
 ## Step 2: Reset the password of course-specific account 
 1. Open the link below:<br>
 https://sdacs.ucsd.edu/~icc/index.php
 2. Type in your school email without @ucsd.edu and PID. If your email is abc@ucsd.edu, just enter abc.
 3. Click in the button under Additional Account
-<img width="460" alt="additional account" src="https://user-images.githubusercontent.com/117040027/212457849-ccee2ea8-aeca-46f7-902b-a1a4200e4f50.png">
+![image](additional account.jpg)
 4. Click change your password to reset your password. The current password would be the same as your tritonlink password. 
 __important: you would not want your TritonLink password to be changed so choose NO when it is asking you to change MyTritonLini password)__
 
@@ -27,7 +27,7 @@ __important: you would not want your TritonLink password to be changed so choose
 4. The computer would then ask you to make sure you want to continue connecting, type in _yes_.
 5. Then you type in your password that you just reset. The screen would show nothing while you typing for security reason.
 This is the screen after connecting:
-<img width="960" alt="vsc ssh" src="https://user-images.githubusercontent.com/117040027/212465193-284faeeb-c585-433c-b0c3-0c2fd88d7240.png">
+![image](vsc ssh.jpg)
 7. Now you are able to try different commands in the terminal!
 
 ## Step 4: Trying Some Commands
@@ -35,7 +35,7 @@ You can now use any of the commands in the terminal now. Feel free to play aroun
 Here are some suggestions of the commands you can use:<br>
 __pwd,mkdir,ls,cd,cat__<br>
 Some examples would be: <br>
-<img width="500" alt="trying commands" src="https://user-images.githubusercontent.com/117040027/212575925-8ff6f58f-73e6-4b1e-9dd0-4bc3b14d5087.png">
+![image](trying commands.png)
 
 ## Step 5: GitHub Pages
 1. Open this link to create a GitHub account: [Link to GitHub](https://www.github.com/) <br>
