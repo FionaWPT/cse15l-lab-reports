@@ -1,4 +1,4 @@
-This post shows the steps about how to enable remote access on our computer.
+This post shows the steps about how to enable remote access on our computer and how to create a Github page.
 
 ## Step 1: Installing VS code
 I have already downloaded VS code on my laptop so there is no need to install again. For those who do not have VS code on thier laptops, go to [Link to VSCode](https://code.visualstudio.com/)
