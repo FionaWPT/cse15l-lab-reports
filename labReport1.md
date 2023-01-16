@@ -33,9 +33,9 @@ This is the screen after connecting:
 ## Step 4: Trying Some Commands
 You can now use any of the commands in the terminal now. Feel free to play around with it. <br>
 Here are some suggestions of the commands you can use:<br>
-__pwd,ls,cd,cat__<br>
-An example would be: <br>
-<img width="479" alt="ls other user" src="https://user-images.githubusercontent.com/117040027/212523680-66d4bc7a-f9bf-4b71-bd87-39640e948405.png">
+__pwd,mkdir,ls,cd,cat__<br>
+Some examples would be: <br>
+<img width="500" alt="trying commands" src="https://user-images.githubusercontent.com/117040027/212575925-8ff6f58f-73e6-4b1e-9dd0-4bc3b14d5087.png">
 
 ## Step 5: GitHub Pages
 1. Open this link to create a GitHub account: [Link to GitHub](https://www.github.com/) <br>
@@ -46,8 +46,11 @@ An example would be: <br>
 6. After finish the content, click _commit new file_ 
 7. Go to settings on the top bar of the page and click pages on the left side of the menu
 8. Select _main_ branch and click _Save_ button
-9. Scroll up to the top and click the link of your site
-10. Now you are able to visit the site you created!
+<img width="787" alt="屏幕截图 2023-01-15 161214" src="https://user-images.githubusercontent.com/117040027/212575247-6c4b1e0a-b179-4ade-a81f-9fbce35be330.png">
+10. Scroll up to the top and click the link of your site
+11. Add _your file name.html_ to the end of the website link <br>
+<img width="872" alt="屏幕截图 2023-01-15 161343" src="https://user-images.githubusercontent.com/117040027/212575230-1919f194-2273-41fe-b9d4-945ab546bc10.png">
+12. Now you are able to visit the site you created!
 
 
 
