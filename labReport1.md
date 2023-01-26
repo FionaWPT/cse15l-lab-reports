@@ -8,7 +8,7 @@ This is the screen when you open VS Code:
 
 ## Step 2: Reset the password of course-specific account 
 1. Open the link below:<br>
-https://sdacs.ucsd.edu/~icc/index.php
+[Link to Reset Password](https://sdacs.ucsd.edu/~icc/index.php)
 2. Type in your school email without @ucsd.edu and PID. If your email is abc@ucsd.edu, just enter abc.
 3. Click in the button under Additional Account
 ![Image](additional account.png)
@@ -21,7 +21,7 @@ __important: you would not want your TritonLink password to be changed so choose
   For __Mac users__, you do not need to download anything.
 2. Open the link and follow the steps to install git bash in VS code: https://stackoverflow.com/a/50527994
 3. After setting up git bash in VS code, you can now type in <br>
-   _ssh cs15lwi23abc@ieng6.ucsd.edu_ <br>
+   `ssh cs15lwi23abc@ieng6.ucsd.edu` <br>
    (where abc is your account code that is shown in the link where you change your password)<br>
    Here is the link for you to check your three letters for your account: https://sdacs.ucsd.edu/~icc/index.php
 4. The computer would then ask you to make sure you want to continue connecting, type in _yes_.
@@ -33,7 +33,7 @@ This is the screen after connecting:
 ## Step 4: Trying Some Commands
 You can now use any of the commands in the terminal now. Feel free to play around with it. <br>
 Here are some suggestions of the commands you can use:<br>
-__pwd,mkdir,ls,cd,cat__<br>
+`_pwd,mkdir,ls,cd,cat_`<br>
 Some examples would be: <br>
 ![Image](trying commands.png)
 
