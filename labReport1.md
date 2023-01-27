@@ -21,7 +21,7 @@ __important: you would not want your TritonLink password to be changed so choose
   For __Mac users__, you do not need to download anything.
 2. Open the link and follow the steps to install git bash in VS code: https://stackoverflow.com/a/50527994
 3. After setting up git bash in VS code, you can now type in <br>
-   ==`ssh cs15lwi23abc@ieng6.ucsd.edu`== <br>
+   `==ssh cs15lwi23abc@ieng6.ucsd.edu==` <br>
    (where abc is your account code that is shown in the link where you change your password)<br>
    Here is the link for you to check your three letters for your account: https://sdacs.ucsd.edu/~icc/index.php
 4. The computer would then ask you to make sure you want to continue connecting, type in _yes_.
