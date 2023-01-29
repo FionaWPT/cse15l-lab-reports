@@ -17,9 +17,9 @@ __important: you would not want your TritonLink password to be changed so choose
 
 ## Step 3: Remoting Connecting
 1. For __Window users__, you need to install GitBash first. 
-  Go to this link to install git:[Link to Install Git](https://gitforwindows.org/)<br>
+  Go to this link to install git: [Link to Install Git](https://gitforwindows.org/)<br>
   For __Mac users__, you do not need to download anything.
-2. Open the link and follow the steps to install git bash in VS code:[Link to Install GitBash](https://stackoverflow.com/a/50527994)
+2. Open the link and follow the steps to install git bash in VS code: [Link to Install GitBash](https://stackoverflow.com/a/50527994)
 3. After setting up git bash in VS code, you can now type in <br>
    ```ssh cs15lwi23abc@ieng6.ucsd.edu``` <br>
    (where abc is your account code that is shown in the link where you change your password)<br>
