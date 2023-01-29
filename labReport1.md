@@ -2,7 +2,7 @@ This post shows the steps about how to enable remote access on our computer and 
 
 ## Step 1: Installing VS code
 I have already downloaded VS code on my laptop so there is no need to install again. For those who do not have VS code on thier laptops, go to [Link to VSCode](https://code.visualstudio.com/)
-to install VS code.<br>
+to install VS code by clicking download for your own type of laptop.<br>
 This is the screen when you open VS Code:
 ![Image](VSC screenshot.png)
 
@@ -17,13 +17,13 @@ __important: you would not want your TritonLink password to be changed so choose
 
 ## Step 3: Remoting Connecting
 1. For __Window users__, you need to install GitBash first. 
-  Go to this link to install git: https://gitforwindows.org/<br>
+  Go to this link to install git:[Link to Install Git](https://gitforwindows.org/)<br>
   For __Mac users__, you do not need to download anything.
-2. Open the link and follow the steps to install git bash in VS code: https://stackoverflow.com/a/50527994
+2. Open the link and follow the steps to install git bash in VS code:[Link to Install GitBash](https://stackoverflow.com/a/50527994)
 3. After setting up git bash in VS code, you can now type in <br>
    ```ssh cs15lwi23abc@ieng6.ucsd.edu``` <br>
    (where abc is your account code that is shown in the link where you change your password)<br>
-   Here is the link for you to check your three letters for your account: https://sdacs.ucsd.edu/~icc/index.php
+   Here is the link for you to check your three letters for your account: [Link to Account](https://sdacs.ucsd.edu/~icc/index.php)
 4. The computer would then ask you to make sure you want to continue connecting, type in _yes_.
 5. Then you type in your password that you just reset. The screen would show nothing while you typing for security reason.
 This is the screen after connecting:
@@ -33,7 +33,7 @@ This is the screen after connecting:
 ## Step 4: Trying Some Commands
 You can now use any of the commands in the terminal now. Feel free to play around with it. <br>
 Here are some suggestions of the commands you can use:<br>
-`_pwd,mkdir,ls,cd,cat_`<br>
+`pwd`(print working directory),`mkdir`(make directory),`ls`(list files and directories),`cd`(change directory),`cat`(print content)`<br>
 Some examples would be: <br>
 ![Image](trying commands.png)
 
@@ -42,7 +42,7 @@ Some examples would be: <br>
 2. Create a new repository from the plus sign at the top right corner
 3. Name your respository __cse15l-lab-reports__
 4. Create a new file in the repository and name the file _sth.md_ (you can decide what sth is)
-5. Now you can stat typing in text and using some markdowns ([Link to Markdown]https://commonmark.org/help/)
+5. Now you can stat typing in text and using some markdowns [Link to Markdown](https://commonmark.org/help/)
 6. After finish the content, click _commit new file_ 
 7. Go to settings on the top bar of the page and click pages on the left side of the menu
 8. Select _main_ branch and click _Save_ button
