@@ -1,0 +1,9 @@
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements StringServer {
+    public String stringSite(URI url) {
+        String[] output = url.split("=");
+            System.out.println(output[1]);
+        }
+    }
