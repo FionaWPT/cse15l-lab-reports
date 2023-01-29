@@ -1,5 +1,5 @@
 # Question 1:
-```
+```js
 import java.io.IOException;
 import java.net.URI;
 
@@ -19,7 +19,7 @@ Below is the screenshots of the symptoms:<br>
 
 Below is the bug and how we fix it:
 ## Before:
-```
+```js
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
@@ -27,7 +27,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 ## After:
-```
+```js
   static void reverseInPlace(int[] arr) {
     int[]newArr = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
