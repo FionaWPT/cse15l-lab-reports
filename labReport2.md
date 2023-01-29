@@ -6,11 +6,15 @@ import java.net.URI;
 class Handler implements URLHandler {
     String result="";
     public String stringSite(URI url) {
-        String[] output = url.getQuery().split("=");
-        result=result+output[1]+"\n";
+        if (url.getPath().contains("/add-message")) {
+            String[] output = url.getQuery().split("=");
+            result=result+output[1]+"\n";
             return result;
-            
         }
+        else{
+            return  "404 Not Found!";
+        }
+    }
 }
 
 class StringServer  {
