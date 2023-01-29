@@ -28,6 +28,16 @@ class StringServer  {
     }
 }
 ```
+## Screenshots of using `/add-message`
+![image](print hello.png)
+1. The method used in the first screenshot is called stringSite.
+2. The argument is the URI(https://...), the values are `/add-message`, the string called `result`, the array called `output`, and the string `"\n"`
+3. The string called `result` changes from empty string to the string follows after `=`.<br>
+![image](print howareyou .png)
+1. The method used in the second screenshot is also called stringSite.
+2. The argument is the URI(https://...) again, the values are also `/add-message`, the string called `result`,the array called `output`, and the string `"\n"`
+3. The string called `result` changes to the new string follows after `=` with previous result above as well.
+
 # Part 2:
 The one of the bugs from lab 3 is from the code of the method _reverseInPlace_ which tries to reverse the order of the arraylist.  A failure-inducing input would be：<br>
 `{1,2,3,4,5}`<br>
