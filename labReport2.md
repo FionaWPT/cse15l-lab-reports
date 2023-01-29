@@ -17,7 +17,7 @@ Howver, an input that doesn’t induce a failure would be:<br>
 `{1}`<br>
 Below is the screenshots of the symptoms:<br>
 __Symptoms for `{1,2,3,4,5}`__<br>
-![image](failure-inducing input symptoms.png)
+![image](failure-inducing input symptoms.png)<br>
 __Symptoms for `{1}`__<br>
 ![image](no failure input.png)
 
