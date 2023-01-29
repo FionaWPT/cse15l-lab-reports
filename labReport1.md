@@ -2,7 +2,7 @@ This post shows the steps about how to enable remote access on our computer and 
 
 ## Step 1: Installing VS code
 I have already downloaded VS code on my laptop so there is no need to install again. For those who do not have VS code on thier laptops, go to [Link to VSCode](https://code.visualstudio.com/)
-to install VS code by clicking download for your own type of laptop.<br>
+to install VS code by clicking download button for your own type of laptop.<br>
 This is the screen when you open VS Code:
 ![Image](VSC screenshot.png)
 
