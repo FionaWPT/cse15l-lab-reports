@@ -66,4 +66,4 @@ become {3,2,3}. When we want to change the last number 3 to the origianlly first
 would then result in {3,2,3} in the end since it is not using the original array. To fix the bug, we create a new array and put the number in the new array once we finishing reversing and keep the original array the same so that there would not have the issue as before. Then, we use for loop to run through the new array and replace the original array with the reversed (new) array one by one in the same position.
 
 # Part 3
-To be honest, everything I've learnt in this past two weeks is new material to me. I have never tried using code to access a server.
+To be honest, everything I've learnt in this past two weeks is new materials to me. I have never tried using code to access a web server and I think it is really cool. I also learned how to find bugs and to determine failure inducing input and symptoms.
