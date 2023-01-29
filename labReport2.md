@@ -11,11 +11,12 @@ class Handler implements StringServer {
     }
 ```
 # Question 2:
-The one of the bugs from lab 3 is that the code tried to reverse the order of the arraylist.  A failure-inducing input would be：<br>
+The one of the bugs from lab 3 is from the code of the method _reverseInPlace_ which tries to reverse the order of the arraylist.  A failure-inducing input would be：<br>
 `{1,2,3,4,5}`<br>
 Howver, an input that doesn’t induce a failure would be:<br>
-`{5}`<br>
+`{1}`<br>
 Below is the screenshots of the symptoms:<br>
+
 
 Below is the bug and how we fix it:
 ## Before:
