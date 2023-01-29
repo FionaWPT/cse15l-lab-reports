@@ -41,7 +41,7 @@ class StringServer  {
 # Part 2:
 The one of the bugs from lab 3 is from the code of the method _reverseInPlace_ which tries to reverse the order of the arraylist.  A failure-inducing input would be：<br>
 `{1,2,3,4,5}`<br>
-Howver, an input that doesn’t induce a failure would be:<br>
+However, an input that doesn’t induce a failure would be:<br>
 `{1}`<br>
 Below is the screenshots of the symptoms:<br>
 __Symptoms for `{1,2,3,4,5}`__<br>
