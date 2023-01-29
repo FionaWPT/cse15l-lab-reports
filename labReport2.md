@@ -16,7 +16,10 @@ The one of the bugs from lab 3 is from the code of the method _reverseInPlace_ w
 Howver, an input that doesn’t induce a failure would be:<br>
 `{1}`<br>
 Below is the screenshots of the symptoms:<br>
-
+__Symptoms for `{1,2,3,4,5}`__<br>
+![image](failure-inducing input symptoms.png)
+__Symptoms for `{1}`__<br>
+![image](no failure input.png)
 
 Below is the bug and how we fix it:
 ## Before:
@@ -39,12 +42,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-  
- 
-
-
-
-The codeb is originally written as reversing the array one by one that means the array would change everytime when we do the reverse. For example, {1,2,3} would 
+## Why the fix addresses the issue
+The code is originally written as reversing the array one by one that means the array would change everytime when we do the reverse. For example, {1,2,3} would 
 become {3,2,3}. When we want to change the last number 3 to the origianlly first number 1, the code would use the new array {3,2,3} to run the reverse code and so it 
-would then result in {3,2,3} in the end since it is not using the original array. To fix the bug, we need to create a new array and put the number in the new array once
-we finishing reversing and keep the original array the same so that there would not have the issue as before. 
+would then result in {3,2,3} in the end since it is not using the original array. To fix the bug, we create a new array and put the number in the new array once we finishing reversing and keep the original array the same so that there would not have the issue as before. Then, we use for loop to run through the new array and replace the original array one by one in the same position.
