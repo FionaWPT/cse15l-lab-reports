@@ -61,9 +61,9 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 ## Why the fix addresses the issue
-The code is originally written as reversing the array one by one that means the array would change everytime when we do the reverse. For example, {1,2,3} would 
-become {3,2,3}. When we want to change the last number 3 to the origianlly first number 1, the code would use the new array {3,2,3} to run the reverse code and so it 
-would then result in {3,2,3} in the end since it is not using the original array. To fix the bug, we create a new array and put the number in the new array once we finishing reversing and keep the original array the same so that there would not have the issue as before. Then, we use for loop to run through the new array and replace the original array with the reversed (new) array one by one in the same position.
+The code is originally written as reversing the array one by one that means the array would change everytime when we do the reverse. For example, `{1,2,3}` would 
+become `{3,2,3}`. When we want to change the last number 3 to the origianlly first number 1, the code would use the new array `{3,2,3}` to run the reverse code and so it 
+would then result in `{3,2,3}` in the end since it is not using the original array. To fix the bug, we create a new array and put the number in the new array once we finishing reversing and keep the original array the same so that there would not have the issue as before. Then, we use for loop to run through the new array and replace the original array with the reversed (new) array one by one in the same position.
 
 # Part 3
-To be honest, everything I've learnt in this past two weeks is new materials to me. I have never tried using code to access a web server and I think it is really cool. I also learned how to find bugs and to determine failure inducing input and symptoms.
+To be honest, everything I've learnt in this past two weeks is new materials to me. I have never tried using code to access a web server and I think it is really cool. By writing different conditions in the code, we are able to make the web shows different output, which is pretty fun. I also learned how to find bugs and to determine failure inducing input and symptoms.
