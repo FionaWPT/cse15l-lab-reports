@@ -194,10 +194,13 @@ $ grep -n "Hawaiians" ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 ```js
 //Example 2:
 $ grep -n "Aloha" ./written_2/travel_guides/berlitz1/*.txt
-./written_2/travel_guides/berlitz1/HistoryHawaii.txt:166:        famous, Aloha Oe.
-./written_2/travel_guides/berlitz1/HistoryHawaii.txt:182:        Line soon were arriving regularly at Aloha Tower, bearing tourists 
+./written_2/travel_guides/berlitz1/HistoryHawaii.txt:166:        
+famous, Aloha Oe.
+./written_2/travel_guides/berlitz1/HistoryHawaii.txt:182:        
+Line soon were arriving regularly at Aloha Tower, bearing tourists 
 from
-./written_2/travel_guides/berlitz1/WhatToHawaii.txt:37:        landing) who nest there. Aloha Airlines offers scheduled flights to
+./written_2/travel_guides/berlitz1/WhatToHawaii.txt:37:        
+landing) who nest there. Aloha Airlines offers scheduled flights to
 // This code prints out not only the line numbers and the sentences 
 // that contains the word "Aloha"
 // but it also prints out the path of the files since we let the computer 
