@@ -7,9 +7,12 @@ We use `-c` like this: `grep -c "words you want to find" path of the file or nam
 //Example 1:
 $ grep -c "The Nara Period" ./written_2/travel_guides/berlitz1/HistoryJapan.txt
 1
-//This code shows the number count of lines that contain the word "The Nara Period" in the file named HistoryJapan. 
-//This is useful when you want to know if this text contains the topic you are looking for before you start reading a long text. 
-//If you know the file does not have the topic you are searching for, then that saves your time looking through the text.
+//This code shows the number count of lines that contain the word 
+//"The Nara Period" in the file named HistoryJapan. 
+//This is useful when you want to know if this text contains the topic 
+//you are looking for before you start reading a long text. 
+//If you know the file does not have the topic you are searching for, 
+//then that saves your time looking through the text.
 ```
 ```js
 //Example 2:
@@ -115,9 +118,12 @@ $ grep -c "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt:1
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt:20
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt:0
-//This code shows the number count of lines in each files in the directory berlitz1 that contains the word "Japan".
-//This is useful when you want to know which files do not talk about Japan and which files do talk about Japan. 
-//From the files that talk about Japan, you can also know which specific one spends more texts to talk about Japan.
+//This code shows the number count of lines in each files in the 
+//directory berlitz1 that contains the word "Japan".
+//This is useful when you want to know which files do not talk about Japan 
+//and which files do talk about Japan. 
+//From the files that talk about Japan, you can also know 
+//which specific file spends more texts to talk about Japan.
 ```
 # 2. `-l`
 The `-l` command-line option prints the path of the files that contains a specified words.
@@ -148,10 +154,14 @@ $ grep -l "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToLosAngeles.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
-//This code prints only the files that contains the word "Japan" in the directory of berlitz1
-//instead of printing out all the files that include files that does not have "Japan".
-//This is useful when you only wnat to check what files contain a certain words no matter the number count of it. 
-//You can also use `-c` to reach the same goal but it would be hard to read if you only want to see files that 
+//This code prints only the files that contains the word 
+//"Japan" in the directory of berlitz1
+//instead of printing out all the files that 
+//include files that does not have "Japan".
+//This is useful when you only wnat to check what files contain 
+//a certain words no matter the number count of it. 
+//You can also use `-c` to reach the same goal but 
+//it would be hard to read if you only want to see files that 
 //contain the words since it shows all the files in the terminal.
 ```
 ```js
@@ -159,7 +169,8 @@ $ grep -l "Japan" ./written_2/travel_guides/berlitz1/*.txt
 $ grep -l "Theory of Relativity" ./written_2/travel_guides/berlitz2/*.txt
 ./written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 //This code prints the only file that contains "Theory of Relativity" in the directory berlitz2.
-//This is useful to save your time find the words one by one in each text files. You can quickly locate the file in this way.
+//This is useful to save your time find the words one by one in each text files. 
+//You can quickly locate the file in this way.
 ```
 # 3. `-n`
 The `-n` command-line option prints the lines that contains the specified words with the line number before.
@@ -174,9 +185,11 @@ $ grep -n "Hawaiians" ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 169:        Political and economic power resided with non-Hawaiians. Dole and other
 176:        Japanese in Hawaii outnumbered Hawaiians two to one.
 223:        component was a growing movement by native Hawaiians to restore the
-// This code prints out the line numbers and the sentences that contains the specific word “Hawaiians" 
+// This code prints out the line numbers and the sentences 
+//that contains the specific word “Hawaiians" 
 // in the file named HistoryHwaii.
-// This is useful when you want to know the exact lines that contain certain words and thier locations in the text file. 
+// This is useful when you want to know the exact lines 
+//that contain certain words and thier locations in the text file. 
 ```
 ```js
 //Example 2:
@@ -185,9 +198,12 @@ $ grep -n "Aloha" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HistoryHawaii.txt:182:        Line soon were arriving regularly at Aloha Tower, bearing tourists 
 from
 ./written_2/travel_guides/berlitz1/WhatToHawaii.txt:37:        landing) who nest there. Aloha Airlines offers scheduled flights to
-// This code prints out not only the line numbers and the sentences that contains the word "Aloha"
-// but it also prints out the path of the files since we let the computer to find in all the text files in berlitz1.
-// This is useful when you want to know which text files in a certain directory contains certain words 
+// This code prints out not only the line numbers and the sentences 
+// that contains the word "Aloha"
+// but it also prints out the path of the files since we let the computer 
+// to find in all the text files in berlitz1.
+// This is useful when you want to know which text files 
+// in a certain directory contains certain words 
 // and the locations of the words.
 ```
 # 4. `-L`
@@ -268,16 +284,19 @@ $ grep -L "History" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToMadeira.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt
-// This code prints out all the files in the directory berlitz1 that do not have the words "History".
+// This code prints out all the files in the directory berlitz1 
+// that do not have the words "History".
 // This is useful when you want to exclude files that contains certain words.
 ```
 ```js
 //Example 2:
 $ grep -L "." ./written_2/travel_guides/berlitz1/*.txt
 
-// This code also prints out all the files in the directory berlitz1 that do not have the words ".".
-//Aparently, nothing is printed out because all the files contain a period ".".
+// This code also prints out all the files in the directory berlitz1 
+// that do not have the words ".".
+// Aparently, nothing is printed out because all the files contain a period ".".
 //This is useful when you want to check if certain words exists in all the files.
 ```
 # Resources
-I used ChatGPT to provide me examples and descriptions of command-line options for `grep` and I chose four of them. I typed all the code myself in VS code.
+I used ChatGPT to provide me examples and descriptions of command-line options for `grep` and I chose four of them. 
+I typed all the code myself in VS code.
