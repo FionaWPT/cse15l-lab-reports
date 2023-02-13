@@ -3,8 +3,8 @@
 The `-c` command-line option prints the number count of the lines of specified words within a certain file.
 We use `-c` like this: `grep -c "words you want to find" path of the file or name of the file`.
 ## Two examples of `-c`
+__Example 1:__
 ```js
-//Example 1://
 $ grep -c "The Nara Period" ./written_2/travel_guides/berlitz1/HistoryJapan.txt
 1
 //This code shows the number count of lines that contain the word 
@@ -14,8 +14,8 @@ $ grep -c "The Nara Period" ./written_2/travel_guides/berlitz1/HistoryJapan.txt
 //If you know the file does not have the topic you are searching for, 
 //then that saves your time looking through the text.
 ```
+__Example 2:__
 ```js
-//Example 2://
 $ grep -c "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HandRHawaii.txt:0
 ./written_2/travel_guides/berlitz1/HandRHongKong.txt:0
@@ -129,8 +129,8 @@ $ grep -c "Japan" ./written_2/travel_guides/berlitz1/*.txt
 The `-l` command-line option prints the path of the files that contains a specified words.
 We use `-l` like this: `grep -l "words" path`.
 ## Two examples of `-l`
+__Example 1:__
 ```js
-//Example 1://
 $ grep -l "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HandRJamaica.txt
 ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
@@ -164,8 +164,8 @@ $ grep -l "Japan" ./written_2/travel_guides/berlitz1/*.txt
 //it would be hard to read if you only want to see files that 
 //contain the words since it shows all the files in the terminal.
 ```
+__Example 2:__
 ```js
-//Example 2://
 $ grep -l "Theory of Relativity" ./written_2/travel_guides/berlitz2/*.txt
 ./written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 //This code prints the only file that contains "Theory of Relativity" in the directory berlitz2.
@@ -176,8 +176,8 @@ $ grep -l "Theory of Relativity" ./written_2/travel_guides/berlitz2/*.txt
 The `-n` command-line option prints the lines that contains the specified words with the line number before.
 We use `-n` like this: `grep -n "words" path`.
 ## Two examples of `-n`
+__Example 1:__
 ```js
-//Example 1://
 $ grep -n "Hawaiians" ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 28:        might seem less than Edenic, the early Hawaiians led a pleasurable
 127:        Hawaiians were opposed to surrendering their sovereignty. When a new
@@ -191,8 +191,8 @@ $ grep -n "Hawaiians" ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 // This is useful when you want to know the exact lines 
 //that contain certain words and thier locations in the text file. 
 ```
+__Example 2:__
 ```js
-//Example 2://
 $ grep -n "Aloha" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HistoryHawaii.txt:166:        
 famous, Aloha Oe.
@@ -213,8 +213,8 @@ landing) who nest there. Aloha Airlines offers scheduled flights to
 This `-L` command-line option prints out the file names that do not contain a specified words.
 We use `-L` like this: `grep -L "words" path`.
 ## Two examples of `-L`
+__Example 1:__
 ```js
-//Example 1://
 $ grep -L "History" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/HandRHawaii.txt
 ./written_2/travel_guides/berlitz1/HandRHongKong.txt
@@ -291,8 +291,8 @@ $ grep -L "History" ./written_2/travel_guides/berlitz1/*.txt
 // that do not have the words "History".
 // This is useful when you want to exclude files that contains certain words.
 ```
+__Example 2:__
 ```js
-//Example 2://
 $ grep -L "." ./written_2/travel_guides/berlitz1/*.txt
 
 // This code also prints out all the files in the directory berlitz1 
