@@ -7,6 +7,7 @@ __Example 1:__
 ```js
 $ grep -c "The Nara Period" ./written_2/travel_guides/berlitz1/HistoryJapan.txt
 1
+
 //This code shows the number count of lines that contain the word 
 //"The Nara Period" in the file named HistoryJapan. 
 //This is useful when you want to know if this text contains the topic 
@@ -118,10 +119,11 @@ $ grep -c "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt:1
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt:20
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt:0
+
 //This code shows the number count of lines in each files in the 
 //directory berlitz1 that contains the word "Japan".
-//This is useful when you want to know which files do not talk about Japan 
-//and which files do talk about Japan. 
+//This is useful when you want to know which files do not talk about Japan
+//and which files do talk about Japan.
 //From the files that talk about Japan, you can also know 
 //which specific file spends more texts to talk about Japan.
 ```
@@ -154,6 +156,7 @@ $ grep -l "Japan" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToLosAngeles.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt
 ./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+
 //This code prints only the files that contains the word 
 //"Japan" in the directory of berlitz1
 //instead of printing out all the files that 
@@ -168,6 +171,7 @@ __Example 2:__
 ```js
 $ grep -l "Theory of Relativity" ./written_2/travel_guides/berlitz2/*.txt
 ./written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
+
 //This code prints the only file that contains "Theory of Relativity" in the directory berlitz2.
 //This is useful to save your time find the words one by one in each text files. 
 //You can quickly locate the file in this way.
@@ -185,6 +189,7 @@ $ grep -n "Hawaiians" ./written_2/travel_guides/berlitz1/HistoryHawaii.txt
 169:        Political and economic power resided with non-Hawaiians. Dole and other
 176:        Japanese in Hawaii outnumbered Hawaiians two to one.
 223:        component was a growing movement by native Hawaiians to restore the
+
 // This code prints out the line numbers and the sentences 
 //that contains the specific word “Hawaiians" 
 // in the file named HistoryHwaii.
@@ -201,6 +206,7 @@ Line soon were arriving regularly at Aloha Tower, bearing tourists
 from
 ./written_2/travel_guides/berlitz1/WhatToHawaii.txt:37:        
 landing) who nest there. Aloha Airlines offers scheduled flights to
+
 // This code prints out not only the line numbers and the sentences 
 // that contains the word "Aloha"
 // but it also prints out the path of the files since we let the computer 
@@ -287,6 +293,7 @@ $ grep -L "History" ./written_2/travel_guides/berlitz1/*.txt
 ./written_2/travel_guides/berlitz1/WhereToMadeira.txt
 ./written_2/travel_guides/berlitz1/WhereToMadrid.txt
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt
+
 // This code prints out all the files in the directory berlitz1 
 // that do not have the words "History".
 // This is useful when you want to exclude files that contains certain words.
