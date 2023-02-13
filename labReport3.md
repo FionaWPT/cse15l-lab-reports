@@ -172,7 +172,8 @@ __Example 2:__
 $ grep -l "Theory of Relativity" ./written_2/travel_guides/berlitz2/*.txt
 ./written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 
-//This code prints the only file that contains "Theory of Relativity" in the directory berlitz2.
+//This code prints the only file that contains "Theory of Relativity" 
+//in the directory berlitz2.
 //This is useful to save your time find the words one by one in each text files. 
 //You can quickly locate the file in this way.
 ```
